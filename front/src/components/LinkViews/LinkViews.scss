@@ -1,0 +1,14 @@
+.view-card {
+    padding: 10px;
+    &__image {
+        width: 200px;
+        height: auto;
+    }
+
+    &__text-block {
+        flex-flow: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
